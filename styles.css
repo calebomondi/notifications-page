@@ -1,0 +1,120 @@
+@import url(https://fonts.googleapis.com/css?family=Plus+Jakarta+Sans);
+
+body {
+    background-color: hsl(210, 60%, 98%);
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.col-sm-7 {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#notifLBL, #markread, #unread {
+    display: inline;
+}
+#notifLBL, #unread {
+    font-size: 18px;
+}
+#unread {
+    background-color: hsl(219, 85%, 26%);
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 5px;
+    margin-left: 4px;
+    color: hsl(0, 0%, 100%);
+    position: absolute;
+}
+#markread {
+    float: right;
+}
+#markread:hover {
+    color: hsl(219, 85%, 26%);
+    cursor: pointer;
+}
+#notifLBL {
+    color:hsl(224, 21%, 14%);
+    font-weight: 800;
+}
+
+.username, .post, .msgTyp,.unreadNotifDot,.group {
+    display: inline;
+}
+.username {
+    color: hsl(224, 21%, 14%);
+    font-weight: bold;
+}
+.username:hover {
+    color: hsl(219, 85%, 26%);
+    cursor: pointer;
+}
+.post {
+    color: hsl(219, 12%, 42%);
+    font-weight: bold;
+}
+.post:hover {
+    color: hsl(219, 85%, 26%);
+    cursor: pointer;
+}
+.msgTyp, .timePosted, .mssg {
+    color: hsl(219, 12%, 42%);
+}
+.unreadNotifDot {
+    color: hsl(1, 90%, 64%);
+    line-height: 1;
+    font-size: 20px;
+}
+.group {
+    color: hsl(219, 85%, 26%);
+    font-weight: bold;
+}
+.mssg {
+    border: 1px solid hsl(219, 12%, 42%);
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.mssg:hover {
+    background-color: #75E6DA;
+    border: 1px solid #75E6DA;
+}
+
+img {
+    max-width: 50px;
+}
+
+.picReact,.details {
+    display: inline-block;
+    box-sizing: border-box;
+    flex: 0 0 auto;
+}
+td {
+    position: relative;
+}
+.picReact {
+    right: 5px;
+    position: absolute;
+}
+.picReact:hover {
+    outline: 1px solid #7cbcf8;
+    border-radius: 10px;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0 10px;
+}
+.trNotify {
+    background-color: #D4F1F4;
+}
+
+td:first-child {
+    border-radius: 10px 0 0 10px;
+}
+td:last-child {
+    border-radius: 0 10px 10px 0;
+}

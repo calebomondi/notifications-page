@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Notifications page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  
+  <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+  <div class="container mt-5 ">
+    <div class="row justify-content-center align-items-center">
+      <div class="col-sm-7">
+        <div id="header">
+          <p id="notifLBL">Notifications</p> <p id="unread">3</p> <p id="markread">Mark all as read</p>
+        </div>
+        <table class="table table-borderless">
+          <tr class="trNotify">
+            <td>
+              <div>
+                <img src="./assets/images/avatar-mark-webber.webp" alt="profile_pic">
+              </div>
+            </td>
+            <td>
+              <div>
+                <p class="username">Mark Webber </p><p class="msgTyp">replied to your recent post </p><p class="post"> My first tournament today! </p><p class="unreadNotifDot">&#8226;</p>
+                <p class="timePosted">1 min ago</p>
+              </div>
+            </td>
+          </tr>
+          <tr class="trNotify">
+            <td>
+              <div>
+                <img src="./assets/images/avatar-angela-gray.webp" alt="profile_pic">
+              </div>
+            </td>
+            <td>
+              <div>
+                <p class="username">Angela Grey </p><p class="msgTyp">followed you </p><p class="unreadNotifDot">&#8226;</p>
+                <p class="timePosted">5 min ago</p>
+              </div>
+            </td>
+          </tr>
+          <tr class="trNotify">
+            <td>
+              <div>
+                <img src="./assets/images/avatar-jacob-thompson.webp" alt="profile_pic">
+              </div>
+            </td>
+            <td>
+              <div>
+                <p class="username">Jacob Thompson </p><p class="msgTyp">has joined your group </p><p class="group"> Chess Club </p><p class="unreadNotifDot">&#8226;</p>
+                <p class="timePosted">1 day ago</p>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div>
+                <img src="./assets/images/avatar-rizky-hasanuddin.webp" alt="profile_pic">
+              </div>
+            </td>
+            <td>
+              <div>
+                <p class="username">Rizky Hasanuddin </p><p class="msgTyp">sent you a private message </p>
+                <p class="timePosted">5 days ago</p>
+                <p class="mssg">
+                  Hello, thanks for setting up the Chess Club. I've been a member for few weeks now and I'm already having
+                  lots of fun and improving my game.
+                </p>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div>
+                <img src="./assets/images/avatar-kimberly-smith.webp" alt="profile_pic">
+              </div>
+            </td>
+            <td>
+              <div class="details">
+                <p class="username">Kimberly Smith </p><p class="msgTyp">commented on your picture </p>
+                <p class="timePosted">1 week ago</p>
+              </div>
+              <div class="picReact">
+                <img src="./assets/images/image-chess.webp" alt="picture">
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div>
+                <img src="./assets/images/avatar-nathan-peterson.webp" alt="profile_pic">
+              </div>
+            </td>
+            <td>
+              <div>
+                <p class="username">Nathan Peterson </p><p class="msgTyp">reacted to your recent post </p><p class="post"> five end-game strategies to increase your win rate </p>
+                <p class="timePosted">2 weeks ago</p>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div>
+                <img src="./assets/images/avatar-anna-kim.webp" alt="profile_pic">
+              </div>
+            </td>
+            <td>
+              <div>
+                <p class="username">Anna Kim </p><p class="msgTyp">has left the group </p><p class="group"> Chess Club </p>
+                <p class="timePosted">2 weeks ago</p>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+ 
+</body>
+</html>
